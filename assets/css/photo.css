@@ -687,6 +687,8 @@ body.nav-active { overflow: hidden; }
 
 
 .project .container {
+  width: 100%;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -696,8 +698,8 @@ body.nav-active { overflow: hidden; }
 
 .project .container .imgBx {
   position: relative;
-  width: 100%;
-  height:100%;
+  width: 33.33%;
+  height: 50%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -753,18 +755,18 @@ body.nav-active { overflow: hidden; }
   transform-origin: top;
 }
 
-
-
-@media (min-width: 700px) {
+@media (max-width: 1024px) {
   .project .container {
-    width: 66.66%;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
-@media (min-width: 900px) {
+
+@media (max-width: 600px) {
   .project .container {
-    width: 33.33%;
+    grid-template-columns: 1fr;
   }
 }
+
 
 /*-----------------------------------*\
   #CTA
