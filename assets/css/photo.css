@@ -687,8 +687,6 @@ body.nav-active { overflow: hidden; }
 
 
 .project .container {
-  width: 100%;
-  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -698,7 +696,7 @@ body.nav-active { overflow: hidden; }
 
 .project .container .imgBx {
   position: relative;
-  width: 33.33%;
+  width: 100%;
   height: 50%;
   background-repeat: no-repeat;
   background-position: center;
@@ -761,9 +759,9 @@ body.nav-active { overflow: hidden; }
   }
 }
 
-@media (max-width: 600px) {
+@media (min-width: 700px) {
   .project .container {
-    grid-template-columns: 1fr;
+    width: 33.33%;
   }
 }
 
