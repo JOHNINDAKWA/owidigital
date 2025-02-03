@@ -323,6 +323,8 @@ body.nav-active { overflow: hidden; }
 
 .header .btn-1 { display: none; }
 
+.header .mob-item { display: block; }
+
 .header {
   /* --color: var(--white); */
 
@@ -956,6 +958,8 @@ body.nav-active { overflow: hidden; }
     gap: 5px;
     margin-inline-start: auto;
   }
+
+  .header .mob-item { display: none; }
 
 
 
