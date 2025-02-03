@@ -233,6 +233,8 @@ body {
 
 .header .btn { display: none; }
 
+.header .mob-item { display: block; }
+
 .header {
   --color: var(--white);
 
@@ -815,6 +817,8 @@ body {
   .container { max-width: 720px; }
 
 
+
+  .header .mob-item { display: none; }
 
   /**
    * HERO
