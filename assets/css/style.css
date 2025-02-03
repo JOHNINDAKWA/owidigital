@@ -289,6 +289,8 @@ body {
 
 .header .btn-1 { display: none; }
 
+.header .mob-item { display: block; }
+
 .header {
   /* --color: var(--white); */
 
@@ -1105,6 +1107,8 @@ textarea.input-field {
     margin-inline-start: auto;
   }
 
+
+  .header .mob-item { display: none; }
 
 
 
