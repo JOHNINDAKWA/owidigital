@@ -1062,11 +1062,12 @@
 
       <div class="footer-bottom">
         <p class="copyright">
-          &copy; 2025 <a href="#" class="copyright-link">Owi Digital Media</a>.
+          &copy; <span id="spanYear"></span> <a href="#" class="copyright-link">Owi Digital Media</a>.
           All Rights Reserved.
         </p>
       </div>
     </footer>
+    
 
 
   <!-- 
@@ -1087,6 +1088,10 @@
     <!-- 
     - ionicon link
   -->
+    <!-- Get current year for copyright statement -->
+<script>
+  $('#spanYear').html(new Date().getFullYear());
+</script>
     <script
       type="module"
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
