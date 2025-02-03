@@ -769,13 +769,13 @@
         </ul>
       </div>
     </div>
+<div class="footer-bottom" style="display: flex; justify-content: center; align-items: center; gap: 5px; flex-wrap: nowrap;">
+  <span style="white-space: nowrap;">&copy;</span>
+  <span id="spanYear" style="white-space: nowrap;"></span>
+  <a href="#" class="copyright-link" style="white-space: nowrap;">Owi Digital Media</a>
+  <span style="white-space: nowrap;">. All Rights Reserved.</span>
+</div>
 
-    <div class="footer-bottom">
-      <p class="copyright">
-        &copy; <span id="spanYear"></span> <a href="#" class="copyright-link">Owi Digital Media</a>.
-        All Rights Reserved.
-      </p>
-    </div>
   </footer>
 
 
@@ -801,12 +801,15 @@
     - ionicon
   -->
   <!-- Get current year for copyright statement -->
-<script>
-  $('#spanYear').html(new Date().getFullYear());
-</script>
+
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+  $(document).ready(function() {
+    $('#spanYear').html(new Date().getFullYear());
+  });
+</script>
 </body>
 
 </html>
