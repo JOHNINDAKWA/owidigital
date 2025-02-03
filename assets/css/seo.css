@@ -238,6 +238,8 @@ body { background: var(--white); line-height: 1.7;}
 
 .header .btn-1 { display: none; }
 
+.header .mob-item { display: block; }
+
 .header {
   /* --color: var(--white); */
 
@@ -914,6 +916,8 @@ body { background: var(--white); line-height: 1.7;}
     margin-inline-start: auto;
   }
 
+
+  .header .mob-item { display: none; }
 
   
   /**
