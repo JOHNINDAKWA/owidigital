@@ -687,8 +687,6 @@ body.nav-active { overflow: hidden; }
 
 
 .project .container {
-  width: 100%;
-  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -699,7 +697,7 @@ body.nav-active { overflow: hidden; }
 .project .container .imgBx {
   position: relative;
   width: 100%;
-  height: 50%;
+  height: 100%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
