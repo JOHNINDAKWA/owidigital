@@ -1088,10 +1088,7 @@
     <!-- 
     - ionicon link
   -->
-    <!-- Get current year for copyright statement -->
-<script>
-  $('#spanYear').html(new Date().getFullYear());
-</script>
+
     <script
       type="module"
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
@@ -1100,5 +1097,13 @@
       nomodule
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
+    <!-- Get current year for copyright statement -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+  $(document).ready(function() {
+    $('#spanYear').html(new Date().getFullYear());
+  });
+</script>
+
   </body>
 </html>
